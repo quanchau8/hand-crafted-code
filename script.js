@@ -23,7 +23,7 @@
   /* ---------- Certificate generator ---------- */
 
   var HERITAGE_ATTRIBUTES = [
-    "Contains one (1) load-bearing global variable",
+    "Contains one (1) global variable",
     "Aged overnight before commit",
     "Trace technical debt, as nature intended",
     "Off-by-one error, hand-placed",
