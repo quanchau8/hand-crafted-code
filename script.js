@@ -35,7 +35,7 @@
     "Variable names of single-origin terroir",
     "Reviewed aloud by candlelight in a batch of forty lines",
     "Semicolons placed at room temperature",
-    "Contains one transcription error of documented lineage"
+    "One Stack Overflow answer, pasted with care"
   ];
 
   var HOUSE_ARTISANS = [
