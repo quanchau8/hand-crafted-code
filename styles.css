@@ -340,7 +340,8 @@ code {
 
 .tier li:last-child { border-bottom: none; }
 
-.pricing-note {
+.pricing-note,
+.heritage-note {
   text-align: center;
   font-style: italic;
   font-size: 1rem;
