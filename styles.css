@@ -249,6 +249,23 @@ code {
   color: var(--ink-soft);
 }
 
+.process-aside {
+  max-width: 36em;
+  margin-top: 4.5rem;
+  padding-top: 2.4rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.process-aside h3 {
+  font-size: 1.45rem;
+  margin-bottom: 0.6rem;
+}
+
+.process-aside p {
+  font-size: 0.98rem;
+  color: var(--ink-soft);
+}
+
 /* ---------- Heritage ---------- */
 
 .heritage-grid {

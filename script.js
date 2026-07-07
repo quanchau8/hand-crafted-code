@@ -34,7 +34,8 @@
     "Whitespace balanced without instruments",
     "Variable names of single-origin terroir",
     "Reviewed aloud by candlelight in a batch of forty lines",
-    "Semicolons placed at room temperature"
+    "Semicolons placed at room temperature",
+    "Contains one transcription error of documented lineage"
   ];
 
   var HOUSE_ARTISANS = [
