@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate of Authenticity — GonnSolo</title>
+  <meta name="description" content="Reclaimed Collection. Issued to the first patron of the house.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .cert-page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 4.5rem 2rem 0;
+    }
+
+    .cert-page .eyebrow { text-align: center; }
+
+    .cert-testimonial {
+      max-width: 28em;
+      margin: 0 auto 2.4rem;
+      padding-top: 1.9rem;
+      border-top: 1px solid var(--hairline);
+      font-style: italic;
+      font-size: 1.15rem;
+      color: var(--ink-soft);
+    }
+
+    .cert-testimonial cite {
+      display: block;
+      margin-top: 0.9rem;
+      font-style: normal;
+      font-family: var(--micro);
+      font-size: 0.62rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--oak-light);
+    }
+
+    .wordmark a {
+      color: inherit;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wordmark"><a href="/">Hand&#8209;Crafted Code</a></div>
+    <nav class="site-nav">
+      <a href="/#manifesto">Manifesto</a>
+      <a href="/#process">Process</a>
+      <a href="/#heritage">Heritage</a>
+      <a href="/#pricing">Commissions</a>
+      <a href="/#certificate">Certificate</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="cert-page">
+      <p class="eyebrow">Reclaimed Collection</p>
+
+      <div id="certificate-area">
+        <article class="certificate is-shown" aria-label="Certificate of authenticity for GonnSolo">
+          <p class="cert-kicker">Hand-Crafted Code Atelier &middot; Reclaimed Collection</p>
+          <h1 class="cert-title">Certificate of Authenticity</h1>
+          <p class="cert-presents">Presented to the first patron of the house</p>
+          <p class="cert-repo">GonnSolo</p>
+          <p class="cert-line">
+            Reclaimed by hand from a 2009 SourceForge project. Delivered with
+            its faults intact.
+          </p>
+          <p class="cert-attribute">
+            Contains one (1) bluescreen memory leak, preserved by request.
+          </p>
+
+          <blockquote class="cert-testimonial">
+            &ldquo;The bluescreen memory leak easter egg brought back childhood
+            memories for me.&rdquo;
+            <cite>GonnSolo, first patron</cite>
+          </blockquote>
+
+          <p class="cert-blame">blame 7f3a9c2e1 (Wm. Harrington the Elder 2026-05-14) &middot; signed by hand</p>
+
+          <div class="cert-footer">
+            <div class="cert-meta">
+              <div>No. 0001 &middot; Series MMXXVI</div>
+              <div>Issued 9 July 2026</div>
+              <div>Guild of Deliberate Engineers</div>
+            </div>
+            <div class="cert-seal">HC</div>
+            <div class="cert-signature">
+              <div class="sig">R. Whitfield</div>
+              <div class="sig-role">Keeper of the Blame</div>
+            </div>
+          </div>
+
+          <div class="cert-actions">
+            <button type="button" class="button button-quiet cert-print">Print for Framing</button>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="badge" aria-label="Guild of Deliberate Engineers, certified since MMIX">
+      <svg viewBox="0 0 120 120" width="96" height="96" aria-hidden="true">
+        <defs>
+          <path id="badge-circle" d="M 60,60 m -46,0 a 46,46 0 1,1 92,0 a 46,46 0 1,1 -92,0"></path>
+        </defs>
+        <circle cx="60" cy="60" r="58" fill="none" stroke="currentColor" stroke-width="1"></circle>
+        <circle cx="60" cy="60" r="34" fill="none" stroke="currentColor" stroke-width="0.75"></circle>
+        <text font-size="9.5" letter-spacing="2.5" fill="currentColor">
+          <textPath href="#badge-circle">GUILD OF DELIBERATE ENGINEERS &middot;</textPath>
+        </text>
+        <text x="60" y="57" text-anchor="middle" font-size="13" letter-spacing="1" fill="currentColor">EST.</text>
+        <text x="60" y="72" text-anchor="middle" font-size="13" letter-spacing="1" fill="currentColor">MMIX</text>
+      </svg>
+    </div>
+    <p class="footer-line">Certified Slow Software &middot; Batch sizes limited by nature</p>
+    <p class="fine-print">
+      &copy; MMXXVI Hand-Crafted Code Atelier. All commits are final. Refactoring voids the
+      certificate of authenticity. Keyboard sounds heard in the atelier are genuine and unamplified.
+    </p>
+  </footer>
+
+  <script>
+    document.querySelector(".cert-print").addEventListener("click", function () {
+      window.print();
+    });
+  </script>
+</body>
+</html>
